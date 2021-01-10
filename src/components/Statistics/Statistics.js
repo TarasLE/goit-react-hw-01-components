@@ -9,7 +9,7 @@ export default function Statistics({ title, stats}) {
                 ): ('')}
       <ul className={styles.StatList}>
         {stats.map(item => (
-    <li className={styles.Item} key={item.id}>
+          <li className={styles.Item} key={item.id}>
       <span className={styles.Label}>{item.label}</span>
       <span className={styles.Percentage}>{item.percentage}%</span>
     </li>
