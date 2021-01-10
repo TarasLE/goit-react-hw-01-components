@@ -3,8 +3,6 @@ import Statistics from './components/Statistics/Statistics';
 import user from './user.json';
 import statisticalData from './statistical-data.json';
 
-// console.log(statisticalData);
-// console.log(Statistics);
 
 export default function App() {
     return(
