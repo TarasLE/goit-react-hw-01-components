@@ -15,7 +15,7 @@ export default function TransactionHistory({ items }) {
   <tbody>
                 
  {items.map(item=> (
-    <tr>
+    <tr key={item.id}>
       <td className={styles.Data}>{item.type}</td>
       <td className={styles.Data}>{item.amount}</td>
       <td className={styles.Data}>{item.currency}</td>

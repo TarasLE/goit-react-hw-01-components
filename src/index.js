@@ -5,8 +5,8 @@ import App from './App';
 
 ReactDOM.render(<App/>, document.querySelector('#root'));
 
-// const list = document.querySelector('.Statistics_StatList__nHFBH')
-// console.log(list);
+const list = document.querySelector('.Statistics_StatList__nHFBH')
+console.log(list);
 // console.log(list.length);
 // let strings = '1';
 // console.log(strings.length);
