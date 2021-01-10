@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
+import PropTypes from 'prop-types';
 
 export default function Statistics({ title, stats}) {
   return (
@@ -20,7 +20,7 @@ export default function Statistics({ title, stats}) {
   )
 }
 
-Statistics.propTypes = {
+  Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.object.isRequired,
 }
