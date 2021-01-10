@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
 export default function Statistics({ title, stats}) {
@@ -17,4 +18,9 @@ export default function Statistics({ title, stats}) {
   </ul>
 </section>
   )
+}
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.object.isRequired,
 }
