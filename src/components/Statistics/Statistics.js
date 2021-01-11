@@ -12,11 +12,10 @@ export default function Statistics({ title, stats}) {
           <li className={styles.Item} key={item.id}>
       <span className={styles.Label}>{item.label}</span>
       <span className={styles.Percentage}>{item.percentage}%</span>
-    </li>
+          </li>
         ))}
-   
-  </ul>
-</section>
+     </ul>
+ </section>
   )
 }
 
