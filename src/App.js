@@ -12,11 +12,11 @@ export default function App() {
     return(
       <div>
         <Profile
-  avatar={user.avatar}
-  name={user.name}
-  tag={user.tag}
-  location={user.location}
-  stats={user.stats}
+         avatar={user.avatar}
+         name={user.name}
+         tag={user.tag}
+         location={user.location}
+         stats={user.stats}
         />
          
         <Statistics title="Upload stats" stats={statisticalData} />
