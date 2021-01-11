@@ -13,17 +13,15 @@ export default function TransactionHistory({ items }) {
   </thead>
         
   <tbody>
-                
- {items.map(item=> (
+  {items.map(item=> (
     <tr key={item.id}>
       <td className={styles.Data}>{item.type}</td>
       <td className={styles.Data}>{item.amount}</td>
       <td className={styles.Data}>{item.currency}</td>
     </tr>
-            ))}
-    
+            ))}  
   </tbody>
-</table>
+       </table>
     )
 }
 
