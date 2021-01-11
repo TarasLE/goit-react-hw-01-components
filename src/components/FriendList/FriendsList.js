@@ -11,12 +11,10 @@ export default function FriendsList({ friends }) {
                     avatar={item.avatar}
                     name={item.name}
                     isOnline={item.isOnline}
-                        
-                    />
-                    </div>
+                />
+                 </div>
             ))}
-           
-          </ul>
+        </ul>
         )
 }
 
