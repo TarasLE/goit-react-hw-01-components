@@ -22,6 +22,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "prettier": {
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true
+},
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -43,6 +49,6 @@
   "devDependencies": {
     "husky": "^4.3.7",
     "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1"
+    "prettier": "2.2.1"
   }
 }

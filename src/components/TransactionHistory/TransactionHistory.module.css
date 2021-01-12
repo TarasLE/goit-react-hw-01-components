@@ -1,34 +1,34 @@
 tr {
-  text-align: center;
-  height: 50px;
-  border: solid 1px grey;
+    text-align: center;
+    height: 50px;
+    border: solid 1px grey;
 }
 
 th,
 td {
-  border: solid 1px grey;
+    border: solid 1px grey;
 }
 
 table {
-  border-collapse: collapse;
-  border: 1px solid grey;
+    border-collapse: collapse;
+    border: 1px solid grey;
 }
 
 .TransactionHistory {
-  background-color: white;
-  width: 600px;
-  margin-right: auto;
-  margin-left: auto;
-  border: solid 1px red;
+    background-color: white;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 1px red;
 }
 
 .Header {
-  background-color: rgb(0, 123, 255);
-  color: white;
-  text-transform: uppercase;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    text-transform: uppercase;
 }
 
 .Data {
-  font-size: 18px;
-  color: rgb(84, 79, 79);
+    font-size: 18px;
+    color: rgb(84, 79, 79);
 }

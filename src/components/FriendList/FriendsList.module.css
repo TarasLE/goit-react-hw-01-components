@@ -1,9 +1,8 @@
 .FriendsList {
-  width: max-content;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  background-color: white;
-  margin-bottom: 20px;
-  /* border: solid 1px red; */
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 20px;
 }
